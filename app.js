@@ -30,16 +30,4 @@ app.use((error, req, res, next) => {
   res.status(status).json({ message: message, data: data});
 });
 
-// Movie.belongsTo(User, { constraints: true, onDelete: 'CASCADE' });
-// User.hasMany(Movie);
-
-// sequelize
-//   .sync()
-//   .then((result) => {
-//     // console.log(result);
-//     app.listen(8080);
-//   })
-//   .catch((err) => {
-//     console.log(err);
-//   });
 app.listen(8080);
