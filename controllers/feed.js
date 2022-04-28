@@ -89,7 +89,7 @@ exports.updateMovie = (req, res, next) => {
       return movie.save();
     })
     .then((result) => {
-      res.status(200).json({ message: "MOvie Updated!", movie: result });
+      res.status(200).json({ message: "Movie Updated!", movie: result });
     })
     .catch((err) => {
       if (!err.statusCode) {
