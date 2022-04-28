@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "ghadeer",
+    "password": "12345",
+    "database": "movies-feed",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "ghadeer",
+    "password": "12345",
+    "database": "movies-feed",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "ghadeer",
+    "password": "12345",
+    "database": "movies-feed",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
